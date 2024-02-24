@@ -1,0 +1,88 @@
+/**Reset**/
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+/**Fonts**/
+@font-face {
+    font-family: delius_bold;
+    src: url("../fonts/delius_Unicase/DeliusUnicase-Bold.ttf") format("ttf");
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: dm_sans_regular;
+    src: url("../fonts/dm_sans/DMSans-Regular.ttf") format("ttf");
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: dm_sans_bold;
+    src: url("../fonts/dm_sans/DMSans-Bold.ttf") format("ttf");
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: inter_bold;
+    src: url("../fonts/inter/Inter-Bold.ttf") format("ttf");
+    font-display: swap;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: roboto_regular;
+    src: url("../fonts/roboto/Roboto-Regular.ttf") format("ttf");
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: roboto_medium;
+    src: url("../fonts/roboto/Roboto-Medium.ttf") format("ttf");
+    font-display: swap;
+    font-weight: 500;
+}
+
+/**Typography**/
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: dm_sans_regular;
+}
+
+
+/**Variable**/
+ :root{
+    /**Colors**/
+    --color-purple-200:#929DFF;
+    --color-purple-400 : #6F6AF7;
+    --color-purple-600: #734CF2;
+    --color-violet-400: #E5D8FF;
+    --color-violet-600: #D288FF;
+    --color-blue-mixDark-200: #143565;
+    --color-blue-mixDark-400: #04285A;
+    --color-blue-dark:#483EFF;
+    --color-blue-sky:#BCE0F6;
+    --color-black:#000000;
+    --color-black:#ffffff;
+ }
+
+
+ /**Fluid Responsive formula
+
+ font-size: clamp(<min-fontSize>, (((<max-fontSize> - <min-fontSize>) * (100vw - <min-width-breakpoint>)) / (<max-width-brakpoint> - <min-width-breakpoint>)) +  <min-fontSize>, <max-fontSize>);
+
+ **/
