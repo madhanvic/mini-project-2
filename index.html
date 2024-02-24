@@ -10,6 +10,155 @@
         <link rel="stylesheet" href="./assets/styles/styles.css" />
     </head>
     <body>
+        <nav>
+            <figure>
+                <a href="#" class="logo">Dappr</a>
+            </figure>
 
+            <ul class="nav__sub--list">
+                <li class="nav__sub__item">
+                    <a href="#" class="nav__sub__link">Home</a>
+                </li>
+                <li class="nav__sub__item">
+                    <a href="#" class="nav__sub__link">About Us</a>
+                </li>
+                <li class="nav__sub__item">
+                    <a href="#" class="nav__sub__link">Information</a>
+                </li>
+                <li class="nav__sub__item nav__dropdown">
+                    <button class="nav__dropdown--btn nav__sub__link">
+                        <span>More</span>
+                        <img src="./assets/images/dropDownArrow.png" alt="Drow down" width="10px" height="6px"/>
+                    </button>
+                </li>
+                <li class="nav__sub__item nav__searchbar">
+                    <input type="text" placeholder="search..."/>
+                    <img src="./assets/images/search.png" alt="search" width="20px" height="20px"/>
+                </li>
+            </ul>
+        
+           <button class="nav__hamburger">
+            <span>
+
+            </span>
+            <span>
+                
+            </span>
+            <span>
+                
+            </span>
+           </button>
+           
+         
+        </nav>
+        <main>
+        
+            <div class="wrapper">
+                <section class="section1">
+                  <div class="image_card card__border--radius card__boxshadow--primary"></div>
+                  <div class="textArea card__border--radius">
+                    <textarea class="card__border--radius" name="message" placeholder="It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......"></textarea>
+                  </div>
+                </section>
+                <section class="section__info--card">
+                    <ul class="info__cards card__border--radius">
+                        <li class="info__card card__border--radius card__boxshadow--primary" aria-label="Total Questions" aria-valuetext="200,000">
+                            <p>Total Question's</p>
+                            <p>200,000</p>
+                        </li>
+                        <li class="info__card card__border--radius card__boxshadow--primary" aria-label="Total Answers" aria-valuetext="105,000">
+                            <p>Total Answer's</p>
+                            <p>105,000</p>
+                        </li>
+                        <li class="info__card card__border--radius card__boxshadow--primary" aria-label="Participated" aria-valuetext="10,000">
+                            <p>Participated</p>
+                            <p>10,000</p>
+                        </li>
+                        <li class="info__card card__border--radius card__boxshadow--primary" aria-label="Total Passed" aria-valuetext="6,000">
+                            <p>Total Passed</p>
+                            <p>6,000</p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section_tab card__border--radius">
+                    <ul class="tab__btn--list ">
+                        <li class="tab__item">
+                            <button class="tab__btn card__border--radius tab__btn--active" aria-target="yourInfo__tab">
+                                YOUR INFO
+                            </button>
+                        </li>
+                        <li class="tab__item">
+                            <button class="tab__btn card__border--radius" aria-target="bookMark__tab">
+                                BOOKMARKS
+                            </button>
+                        </li>
+                        <li class="tab__item">
+                            <button class="tab__btn card__border--radius" aria-target="settings__tab">
+                                SETTINGS
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab__content card__border--radius">
+                        <div class="tab__content--wrapper">
+
+                            <div id="yourInfo__tab">
+                                <h2 class="title">Your information</h2>
+                                <table class="your__information--table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Name</td>
+                                            <td>:</td>
+                                            <td>AtulSinghal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email</td>
+                                            <td>:</td>
+                                            <td>atul@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Phone</td>
+                                            <td>:</td>
+                                            <td>+91 8131424888</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Marks</td>
+                                            <td>:</td>
+                                            <td>500.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <button class="tab__next--btn card__border--radius">
+                            <span>Next</span>
+                            <img src="./assets/images/Arrow.png" alt="next" width="20px" height="12px"/>
+                        </button>
+                    </div>
+                </section>
+       
+            </div>
+    
+        </main>
+ 
+        <button class="chatservice__btn card__boxshadow--primary">
+            <img src="./assets/images/chatIcon.png" alt="chat service" width="50px" height="50px"/>
+        </button>
+        <ul class="socialLinks__list">
+            <li class="socialLinks__item">
+                <a href="#" class="socialLinks_link card__border--radius">
+                    <img src="./assets/images/whatsapp.png" alt="whats_app" width="48px" height="48px"/>
+                </a>
+            </li>
+            <li class="socialLinks__item">
+                <a href="#" class="socialLinks_link card__border--radius">
+                    <img src="./assets/images/facebook.png" alt="facebook" width="48px" height="48px"/>
+                </a>
+            </li>
+            <li class="socialLinks__item">
+                <a href="#" class="socialLinks_link card__border--radius">
+                    <img src="./assets/images/twitter.png" alt="twitter" width="48px" height="48px"/>
+                </a>
+            </li>
+        </ul>
     </body>
 </html>
